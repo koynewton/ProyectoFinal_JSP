@@ -399,7 +399,8 @@
             <div class="container-fluid padding">
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <img src="images/logo_blanco.png" alt="logo_blanco">
+                        <hr class = "light">
+                        <h5>Contacto</h5>
                         <hr class="light">
                         <p>Número de telefono</p>
                         <p>email</p>

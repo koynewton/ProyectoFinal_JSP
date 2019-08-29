@@ -50,27 +50,98 @@
     </div>
     
     <!-- Container Principal -->
-    <div class="container">
+   <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h1>Agenda tu cita: </h1>
-                <hr>
-                <form action="#" method="POST">
-                    <select name="doctor">
-                        <option value="Dr. 1">Dr. 1</option>
-                        <option value="Dr. 2">Dr. 2</option>
-                        <option value="Dr. 3">Dr. 3</option>
-                        <option value="Dr. 4">Dr. 4</option>
-                        <option value="Dr. 5">Dr. 5</option>
-                        <option value="Dr. 6">Dr. 6</option>
-                    </select>
-                    <hr>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>                
+            <div class="col-md-4">
+                <div class="login-box">
+                    <h1>Lunes</h1>
+                    <form action="LoginServlet" method = "POST">
+						<button class="btn btn-warning btn-lg btn-block"> 9:00-11:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 11:00-13:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 12:00-11:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 9:00-11:00 </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="login-box">
+                    <h1>Martes</h1>
+                    <form action="LoginServlet" method = "POST">
+						<button class="btn btn-warning btn-lg btn-block"> 9:00-11:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 11:00-13:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 13:00-15:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 15:00-17:00 </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="login-box">
+                    <h1>Miercóles</h1>
+                    <form action="LoginServlet" method = "POST">
+						<button class="btn btn-warning btn-lg btn-block"> 9:00-11:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 11:00-13:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 13:00-15:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 15:00-17:00 </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="espaciador" id="entre-rows"></div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="login-box">
+                    <h1>Jueves</h1>
+                    <form action="LoginServlet" method = "POST">
+						<button class="btn btn-warning btn-lg btn-block"> 9:00-11:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 11:00-13:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 13:00-15:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 15:00-17:00 </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="login-box">
+                    <h1>Viernes</h1>
+                    <form action="LoginServlet" method = "POST">
+						<button class="btn btn-warning btn-lg btn-block"> 9:00-11:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 11:00-13:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 13:00-15:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 15:00-17:00 </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="login-box">
+                    <h1>Sábado</h1>
+                    <form action="LoginServlet" method = "POST">
+						<button class="btn btn-warning btn-lg btn-block"> 9:00-11:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 11:00-13:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 13:00-15:00 </button>
+						<br>
+						<button class="btn btn-warning btn-lg btn-block"> 15:00-17:00 </button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-
+    
     <div class="container-fluid">
             <div class="espaciador" id="arriba-footer"></div>
         </div>
@@ -80,7 +151,8 @@
         <div class="container-fluid padding">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="images/logo_blanco.png" alt="logo_blanco">
+                    <hr class = "light">
+                    <h5>Contacto</h5>
                     <hr class="light">
                     <p>Número de telefono</p>
                     <p>email</p>

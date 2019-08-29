@@ -20,7 +20,7 @@ html, body
 }
 
 #arriba-footer{
-    padding-bottom: 500px;
+    padding-bottom: 300px;
 }
 
 #despues-carrusel{
@@ -32,7 +32,11 @@ html, body
 }
 
 #despues-nav-citas{
-    padding-bottom: 100px;
+    padding-bottom: 330px;
+}
+
+#entre-rows{
+    padding-bottom: 500px;
 }
 
 .navbar-light .nav-item.active .nav-link,
