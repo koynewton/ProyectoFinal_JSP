@@ -52,7 +52,7 @@
     <!-- Container Principal -->
    <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-12 col-md-4">
                 <div class="login-box">
                     <h1>Lunes</h1>
                     <form action="LoginServlet" method = "POST">
@@ -60,13 +60,16 @@
 						<br>
 						<button class="btn btn-warning btn-lg btn-block"> 11:00-13:00 </button>
 						<br>
-						<button class="btn btn-warning btn-lg btn-block"> 12:00-11:00 </button>
+						<button class="btn btn-warning btn-lg btn-block"> 13:00-15:00 </button>
 						<br>
-						<button class="btn btn-warning btn-lg btn-block"> 9:00-11:00 </button>
+						<button class="btn btn-warning btn-lg btn-block"> 15:00-17:00 </button>
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
+            
+            <div class="espaciador" id="entre-rows"></div>
+            
+            <div class="col-sm-12 col-md-4">
                 <div class="login-box">
                     <h1>Martes</h1>
                     <form action="LoginServlet" method = "POST">
@@ -80,7 +83,10 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
+            
+            <div class="espaciador" id="entre-rows"></div>
+            
+            <div class="col-sm-12 col-md-4">
                 <div class="login-box">
                     <h1>Miercóles</h1>
                     <form action="LoginServlet" method = "POST">
@@ -95,9 +101,11 @@
                 </div>
             </div>
         </div>
+        
         <div class="espaciador" id="entre-rows"></div>
+        
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-12 col-md-4">
                 <div class="login-box">
                     <h1>Jueves</h1>
                     <form action="LoginServlet" method = "POST">
@@ -111,7 +119,10 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
+            
+            <div class="espaciador" id="entre-rows"></div>
+            
+            <div class="col-sm-12 col-md-4">
                 <div class="login-box">
                     <h1>Viernes</h1>
                     <form action="LoginServlet" method = "POST">
@@ -125,7 +136,10 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
+            
+            <div class="espaciador" id="entre-rows"></div>
+            
+            <div class="col-sm-12 col-md-4">
                 <div class="login-box">
                     <h1>Sábado</h1>
                     <form action="LoginServlet" method = "POST">
@@ -146,41 +160,41 @@
             <div class="espaciador" id="arriba-footer"></div>
         </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container-fluid padding">
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <hr class = "light">
-                    <h5>Contacto</h5>
-                    <hr class="light">
-                    <p>Número de telefono</p>
-                    <p>email</p>
-                    <p>calle y número </p>
-                    <p>ciudad y código postal</p>
-                </div>
-                <div class="col-md-4">
-                    <hr class="light">
-                    <h5>Horario</h5>
-                    <hr class="light">
-                    <p>lunes a viernes</p>
-                    <p>sabado</p>
-                    <p>domingo</p>
-                </div>
-                <div class="col-md-4">
-                    <hr class="light">
-                    <h5>Sucursales</h5>
-                    <hr class="light">
-                    <p>ijalti</p>
-                    <p>ciudad creativa digital</p>
-                </div>
-                <div class="col-12">
-                    <hr class="light">
-                    <h5>&copy; Generation</h5>
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <hr class = "light">
+                        <h5>Contacto</h5>
+                        <hr class="light">
+                        <p>Número de telefono:  (331) 097 7580</p>
+                        <p>Email:  aplicacion@salud.com</p>
+                        <p>Domicilio:  Av. Adolfo López Mateos Sur 2077, Jardines Plaza del Sol, 44510 Guadalajara, Jal.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Horario</h5>
+                        <hr class="light">
+                        <p>Lunes a Viernes:  7:00 a 18:00 hrs</p>
+                        <p>Sábado:  8:00 a 15:00 hrs</p>
+                        <p>Domingo: Cerrado</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Sucursales</h5>
+                        <hr class="light">
+                        <p>IJALTI:  Av. Adolfo López Mateos Sur 2077, Jardines Plaza del Sol, 44510 Guadalajara, Jal.</p>
+                        <p>Ciudad Creativa Digital:  Zona Centro, 44100 Guadalajara, Jal.</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light">
+                        <h5>&copy; Generation</h5>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+        
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
