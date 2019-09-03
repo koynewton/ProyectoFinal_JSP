@@ -13,10 +13,10 @@
 			 <input type="text" id="txtNombre" name="txtNombre">
 		</p>
 		<p>
-			<label for="txtContra">Introduce Contrase;a</label>
+			<label for="txtContra">Introduce Contraseña</label>
 			 <input	type="password" id="txtContra" name="txtContra">
 		</p>
-		<input type="submit" value="Guardar">
+		<input type="submit" value="Login">
 	</form>
 </body>
 </html>
